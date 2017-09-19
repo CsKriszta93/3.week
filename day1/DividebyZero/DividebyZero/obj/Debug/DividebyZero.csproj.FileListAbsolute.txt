@@ -1,0 +1,7 @@
+C:\Users\Kriszta93\Documents\Greenfox\3.week\day1\DividebyZero\DividebyZero\bin\Debug\DividebyZero.exe.config
+C:\Users\Kriszta93\Documents\Greenfox\3.week\day1\DividebyZero\DividebyZero\bin\Debug\DividebyZero.exe
+C:\Users\Kriszta93\Documents\Greenfox\3.week\day1\DividebyZero\DividebyZero\bin\Debug\DividebyZero.pdb
+C:\Users\Kriszta93\Documents\Greenfox\3.week\day1\DividebyZero\DividebyZero\obj\Debug\DividebyZero.csprojResolveAssemblyReference.cache
+C:\Users\Kriszta93\Documents\Greenfox\3.week\day1\DividebyZero\DividebyZero\obj\Debug\DividebyZero.csproj.CoreCompileInputs.cache
+C:\Users\Kriszta93\Documents\Greenfox\3.week\day1\DividebyZero\DividebyZero\obj\Debug\DividebyZero.exe
+C:\Users\Kriszta93\Documents\Greenfox\3.week\day1\DividebyZero\DividebyZero\obj\Debug\DividebyZero.pdb
