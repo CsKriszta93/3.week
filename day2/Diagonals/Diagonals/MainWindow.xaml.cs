@@ -29,12 +29,12 @@ namespace Diagonals
             var canvasheight = canvas.Height;
             var canvaswidth = canvas.Width;
 
-            foxDraw.StrokeColor(Colors.Black);
+            foxDraw.StrokeColor(Colors.LightGreen);
             var startPoint = new Point(0, 0);
             var endPoint = new Point(canvasheight, canvaswidth);
             foxDraw.DrawLine(startPoint, endPoint);
 
-            foxDraw.StrokeColor(Colors.Black);
+            foxDraw.StrokeColor(Colors.LightGreen);
             var startPoint2 = new Point(0, canvasheight);
             var endPoint2 = new Point(canvaswidth, 0);
             foxDraw.DrawLine(startPoint2, endPoint2);
