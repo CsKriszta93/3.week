@@ -24,18 +24,12 @@ namespace Triangle
     {
         public MainWindow()
         {
-            Triangle(0, 0, 300, 1);   
+            Triangle(0, 0, 300, 6);   
         }
         public void Triangle(double coor1, double coor2, double size, int n)
         {
             InitializeComponent();
             var foxDraw = new FoxDraw(canvas);
-            //double a1 = coor1;
-            //double a2 = coor2;
-            //double b1 = size / 2;
-            //double b2 = coor2;
-            //double c1 = size / 4;
-            //double c2 = size / 2;
 
             var left = new Point(coor1, coor2);
             var right = new Point(coor1 + size / 2, coor2);
@@ -57,6 +51,12 @@ namespace Triangle
             Point[] points3 = { left3, bottom3, top3 };
             foxDraw.DrawPolygon(points3);
 
+            if (n > 0)
+            {
+                Triangle(coor1, coor2, size / 2, n - 1);
+                Triangle(coor1 + size / 2, coor2, size / 2, n - 1);
+                Triangle(coor1 + size / 4, coor2 + size / 2, size / 2, n - 1);
+            }
         }
     }
 }
